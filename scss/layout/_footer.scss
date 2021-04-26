@@ -1,0 +1,55 @@
+footer{
+    visibility: hidden;
+}
+
+@media screen and (min-width:768px) {
+    footer{
+        visibility: visible;
+        position: absolute;
+        width: 150%;
+        height: 198px;
+        left: 0px;
+        top: 997px;
+        
+        background: #5F758E;
+        border: 3px solid #DB162F;
+
+
+       
+    }
+    .footer--copyright{
+        position: absolute;
+        width: 500px;
+        height: 28px;
+        left: 650px;
+        top: 20px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        
+        color: #DBDFAC;
+        text-shadow: 2px 2px 2px black;
+
+    }
+    .footer--mention{
+        text-decoration: none;
+        color: #DBDFAC;
+        text-shadow: 2px 2px 2px black;
+        position: absolute;
+        width: 200px;
+        height: 28px;
+        left: 705px;
+        top: 50px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        
+    }
+}
